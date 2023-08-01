@@ -126,6 +126,7 @@ img{
 @media (max-width:877px){
     .col-3,.col-7{
         width: 100%;
+        float: none;
     }
     .col-3{
         margin-top: 2rem;
