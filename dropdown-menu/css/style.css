@@ -46,7 +46,7 @@ body{
 }
 .menu ul ul li{
     float: none;
-   max-width: 20rem;
+    max-width: 20rem;
     border-left: 2px solid #27ae60;
 }
 .menu ul ul li:hover{
