@@ -1,0 +1,31 @@
+/* basic code */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.25%;
+}
+body{
+    font-size: 1.6rem;
+}
+/* code of jumping */
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: calc(130rem/6);
+    height: 50rem;
+    background-image: url(../image/jumping.jpg);
+    animation: jump 1s steps(6) infinite;
+}
+@keyframes jump{
+    0%{
+        background-position: 0;
+    }
+    100%{
+        background-position: 50rem;
+    }
+}
