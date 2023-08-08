@@ -1,0 +1,31 @@
+/* Basic code */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.25%;
+}
+body{
+    font-size: 1.6rem;
+}
+/* strip code */
+.box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: calc(140rem / 6);
+    height: 23.3rem;
+    background-image: url(../image/sprite.png);
+    animation: animate 1s steps(6) infinite;
+}
+@keyframes animate{
+    from{
+        background-position: 0;
+    }
+    to{
+        background-position: 140rem;
+    }
+}
